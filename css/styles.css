@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+header {
+  width: 100%;
+
+  position: fixed;
+}
+.container {
+  width: 100%;
+
+  background-color: #333;
+  display: flex;
+
+  align-items: center;
+}
+nav {
+  margin: 15px 0;
+}
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3px;
+}
+
+.top-section {
+  width: 100%;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-section div {
+  min-height: 200px;
+  width: 90%;
+}
+.top-section h1 {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.top-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.top-section p {
+  font-size: 1.3rem;
+  color: #fff;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.middle-section {
+  background-color: #252529;
+}
+.middle-section div {
+  width: 90%;
+  min-height: 100vh;
+
+  margin: auto;
+  text-align: center;
+}
+.act-cont img {
+  width: 2.7rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.middle-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #fff;
+  display: inline-block;
+  text-transform: capitalize;
+  vertical-align: middle;
+  margin: 40px;
+  margin-left: 0;
+}
+.act-cont h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.act-cont p {
+  font-size: 1.3rem;
+  color: #fff;
+  line-height: 1.6;
+}
+.btn {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  color: #fff;
+  background-color: #b90415;
+  border: none;
+  margin: 20px 0 30px 0;
+  cursor: pointer;
+}
+.act-cont .act-cont-p {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.6;
+  padding: 0 120px;
+  margin-bottom: 20px;
+}
+.act-cont .act-cont-img {
+  width: 100%;
+}
+.middle-section-2 {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+.middle-section-2-sect {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.middle-section-2-sect h1 {
+  color: #333;
+  font-size: 2rem;
+  padding-top: 80px;
+}
+.middle-section-2-sect p {
+  color: #333;
+  font-size: 1.3rem;
+  padding-top: 40px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+.btn-2 {
+  text-transform: capitalize;
+  background-color: #103063;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.middle-section-2-sect-img {
+  margin-bottom: 30px;
+}
+.bottom-section {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.bottom-section-sect {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.bottom-section-sect h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 180px;
+  line-height: 1.6;
+}
+.bottom-section-sect p {
+  color: #fff;
+  font-size: 1.3rem;
+  padding-top: 40px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+.bottom-section-2 {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #f4f4f4;
+}
+.bottom-section-2-sect {
+  width: 90%;
+  display: flex;
+  justify-content: stretch;
+  padding-top: 60px;
+  margin: auto;
+}
+.info-sect {
+  width: 50%;
+}
+.info-sect img {
+  width: 100%;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+.info-sect h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.info-sect p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+hr {
+  margin-bottom: 10px;
+}
+.info-sect a {
+  text-decoration: none;
+  color: #103063;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.info-sect a:hover {
+  border-bottom: 1px solid #103063;
+  padding-bottom: 5px;
+}
+footer {
+  background-color: #252529;
+}
+.footer-col {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+.footer-col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.footer-col h1 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+  color: #fff;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.footer-col-sect a {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #ccc;
+  line-height: 1.6;
+}
+.footer-end {
+  background-color: #333;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
